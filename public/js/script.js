@@ -16,7 +16,7 @@ document.getElementById('message-form').addEventListener('submit', async (e) => 
     formData.append('message', message);
     if (file) formData.append('file', file);
   
-    const response = await fetch('/submit', {
+    const response = await fetch('/send', {
       method: 'POST',
       body: formData,
     });
