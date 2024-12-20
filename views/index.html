@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mariya's Space</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Hello Mariya!</h1>
+    <p>Welcome to your space. Feel free to share your thoughts, wishes, and ideas. This is your space.</p>
+
+    <div id="form-section">
+      <form id="message-form">
+        <label for="dob">Enter Your DOB (Verification Required):</label>
+        <input type="text" id="dob" placeholder="DDMMYYYY" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" placeholder="Type here..." required></textarea>
+
+        <label for="file-upload">Upload an Image (optional):</label>
+        <input type="file" id="file-upload" accept="image/*">
+
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+    <div id="thank-you-section" class="hidden">
+      <h2>Thank You!</h2>
+      <p>Thank you, Mariya, for sharing your message. The universe, God, and I will pray for your success and happiness!</p>
+    </div>
+  </div>
+  <script src="/js/script.js"></script>
+</body>
+</html>
